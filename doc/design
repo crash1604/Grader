@@ -1,0 +1,15 @@
+Grader is used to grade and allow the teachers to evaluate grades to based on the marks recieved throughout the year
+
+classes used are student and courses
+These two classes contain the run time data for computation
+student has the details of the lists of students
+courses contains the list of components of a particular course whose marks are uploaded in a file
+students has the marks attained as an array and name as variable. There is also a data type that stores their final score in a double
+main.cpp does most opf the data processing
+data is stored in students class objects and courses data is stored in courses class object which is an array.
+exists.cpp contains most of the file validation and data validation.
+If there is anything wrong with the input file it will close at the first error;
+all the data is considered to be non redundant.
+The program cannot differentiate between 2 same entries and will consider them as 2 seperate entities
+In terms of time efficiency this might nopt be the best implementation of the required program.
+

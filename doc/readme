@@ -1,0 +1,14 @@
+All the main operations are executed in main function
+Everything from parameter passing to calculation and allotment of result
+The files which support main function are class Course and class Student
+Data is taken from the fles and stored into the objects of these class.
+
+Main function reads the file passed in via argmuments
+Instead of using datastructures class objects were used as per their easy implementation and direct calling into oher class without the hastle of accomodating pointers in some scenarios.
+the files mentioned beow contain the key elements to all of this.
+src/main.cpp :- all the functions are carried in here it accomodates all the variables.
+src/Student.cpp :- the basic structure for storing information is define in this file
+src/Course.h :- the outline of the course is contained in the file which makes it an integral part of all of this and binding them together.
+main.cpp file is basically ful of loop and declarations followed by comments.
+e whole point of implementing this type of fileystem was to reduce the time taken to prepare the files and come up with a simple solution in contrast to heavy and complicated data structures which are way harder to understand.
+Under the influece of realistic approach to this problem, no product can ever be truly perfect and hence regular maintanence can improve the code  and its performance but the quickest way to impement this program is basically really simple and then more data can be chipped off from the files and can be segregated into files which have some positive influence on the prog.

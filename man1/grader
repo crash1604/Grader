@@ -1,0 +1,28 @@
+.\" Manpage for grader.
+.\" Contact email@address to correct errors or typos.
+.TH man 1 "01 Oct 2019" "1.0" "grader man page"
+.SH NAME
+grader \- get your grades here
+.SH SYNOPSIS
+grader [FILENAME]
+used for taking input from a file and calculating the grades for all the students and with a command line option to display details of a specific student
+.SH DESCRIPTION
+User's required to check for the files that are needed for grading the papers and hence will be told henceforth about the required items
+.SH OPTIONS
+If the user has not passed an argument about the location of the file he will be prompted on runtime to enter a new path for the file.
+there is -s option to look up a specific student
+this can be used like this
+-s studentid filename
+filename -s studentid
+-s studentid {Will prompt the user for input file}
+these arguments are to be used after entering the executable
+.SH SEE ALSO
+there is not much to the project except for reading the file and automating the grading of paper on the basis of marks achieved
+there is -s option to look up a specific student
+.SH BUGS
+Reedundant data would not be reported
+This way we treat the redundant bits as different entities
+So please check for the file for repetition of student names
+.SH AUTHOR
+chanakya sharma (chanakya1604@hotmail.com)
+

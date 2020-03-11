@@ -1,0 +1,19 @@
+GIT repository for csci265/project
+This project takes a simple .txt file with a certain pattern of data arranged in a file which can be read by the program in c++ compiler and will return us the grade achieved by each student enrolled in that course.
+
+the user can get started with the project by navigating to /bin folder and run the executable.
+If you do not see the executable in that folder please navigate back to the repository where are folders are and run make all which will compile the code and place executale in bin/ folder.
+For further help please refer to the manl provided and feel free to contactthat email mentioned below.
+all the header files can be found in hdr/ folder
+all the cpp files can be found in src/ folder
+all the .o file can be found in obj/ folder 
+man1 grader can be found in man1 folder
+tester.sh is used to test all the files and is available in the test/bin directory with Makefile
+Since there are 30 test cases covering vast region of errors. An expected output files are not available .(*shortage of time)
+if there could be anticipated results from the file we would get the actual output in actOut directory under test sub dir
+major computations are handled in src/main.cpp
+file check is performed in exists.cpp in src sub dir.
+
+developed by chanakya sharma
+(chanakya1604@hotmail.com)
+
